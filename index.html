@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO -->
+  <title>Z Guide | Learn AI, Freelancing & Digital Skills</title>
+
+  <meta
+    name="description"
+    content="Z Guide helps students and freelancers learn AI, coding, freelancing, online earning, and future digital skills."
+  />
+
+  <meta
+    name="keywords"
+    content="AI learning, freelancing, coding, digital skills, online earning, Z Guide"
+  />
+
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Z Guide" />
+  <meta name="theme-color" content="#8f5bff" />
+
+  <!-- Google Verification -->
+  <meta
+    name="google-site-verification"
+    content="Mf5v-93krkvF0ccwNKWMWtvrLSylEpydLKQD7AMtH-Q"
+  />
+
+  <!-- Google Adsense -->
+  <meta
+    name="google-adsense-account"
+    content="ca-pub-7356858577003757"
+  />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Z Guide" />
+
+  <meta
+    property="og:description"
+    content="Modern AI-powered learning platform for AI, coding, freelancing, and online earning."
+  />
+
+  <meta
+    property="og:image"
+    content="https://zanvexguide.netlify.app/logo.png"
+  />
+
+  <meta property="og:type" content="website" />
+
+  <meta
+    property="og:url"
+    content="https://zanvexguide.netlify.app/"
+  />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta
+    name="twitter:title"
+    content="Z Guide | AI Career OS"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Learn future digital skills with Z Guide."
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://zanvexguide.netlify.app/logo.png"
+  />
+
+  <!-- Canonical -->
+  <link
+    rel="canonical"
+    href="https://zanvexguide.netlify.app/"
+  />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ["Inter", "sans-serif"]
+          },
+
+          colors: {
+            cyanx: "#20e4ff",
+            vio: "#8f5bff",
+            acid: "#b6ff4d"
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Z Guide",
+    "url":"https://zanvexguide.netlify.app",
+    "description":"AI-powered learning and career platform",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://zanvexguide.netlify.app/?search={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body class="font-inter text-slate-100 antialiased">
+  <div id="loader" class="loader-screen">
+    <div class="loader-core"></div>
+    <p>Booting Z Guide Career OS</p>
+  </div>
+  <div id="scrollProgress" class="scroll-progress"></div>
+  <div id="cursorGlow" class="cursor-glow"></div>
+
+  <nav id="navbar" class="site-nav">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+      <a href="#home" class="brand-mark" aria-label="Z Guide home">
+  <img src="logozguide.png" alt="Z Guide Logo" style="height:60px;" />
+  <span>Z Guide</span>
+</a>
+      <div class="flex items-center gap-5 text-sm font-semibold text-slate-300 nav-center">
+        <a class="nav-link" href="#advisor">AI Advisor</a>
+        <a class="nav-link" href="#trending">Trends</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#compare">Compare</a>
+        <a class="nav-link" href="#calculator">Calculator</a>
+        <a class="nav-link" href="#chat">AI Chat</a>
+      </div>
+      <div class="hidden items-center gap-3 lg:flex">
+        <button id="themeToggle" class="icon-button" aria-label="Toggle theme"><i data-lucide="sun-moon"></i></button>
+        <button data-open-auth class="ghost-button">Login</button>
+        <button data-scroll="#advisor" class="primary-button">Launch OS</button>
+      </div>
+      <button id="menuToggle" class="icon-button lg:hidden" aria-label="Open menu"><i data-lucide="menu"></i></button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu lg:hidden">
+      <a href="#advisor">AI Advisor</a>
+      <a href="#trending">Trends</a>
+      <a href="#skills">Skills</a>
+      <a href="#compare">Compare</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#chat">AI Chat</a>
+      <button id="themeToggleMobile" class="ghost-button">Toggle Theme</button>
+      <button data-open-auth class="primary-button">Join Z Guide</button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-grid"></div>
+      <div class="hero-aurora hero-aurora-one"></div>
+      <div class="hero-aurora hero-aurora-two"></div>
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="relative z-10 mx-auto max-w-7xl px-5 pt-32">
+        <div class="mx-auto max-w-5xl text-center">
+          <div class="reveal inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-white/[0.06] px-4 py-2 text-sm font-semibold text-cyan-100 shadow-2xl shadow-cyan-950/30 backdrop-blur-xl">
+            <span class="pulse-dot"></span>
+            AI Career OS for online skills, freelancing, and future work
+          </div>
+          <h1 class="reveal mt-7 text-balance text-5xl font-black leading-[0.95] tracking-tight sm:text-6xl lg:text-8xl">
+            Choose, Learn, and Earn From The Right Online Skill
+          </h1>
+          <p class="reveal mx-auto mt-7 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">
+            Z Guide turns career confusion into a clear operating system: AI recommendations, skill intelligence, risk meters, learning roadmaps, freelance guides, and earning calculators.
+          </p>
+          <div class="reveal mx-auto mt-10 grid max-w-3xl gap-4 rounded-[1.4rem] border border-white/10 bg-white/[0.06] p-3 shadow-2xl shadow-cyan-950/20 backdrop-blur-2xl sm:grid-cols-[1fr_auto]">
+            <label class="relative block">
+              <i data-lucide="search" class="pointer-events-none absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-cyan-200"></i>
+              <input id="heroSearch" class="search-input" type="search" autocomplete="off" placeholder="Search skills like AI Automation" />
+            </label>
+            <button data-scroll="#skills" class="primary-button h-14 px-7">Explore OS</button>
+          </div>
+          <div class="reveal mt-6 flex flex-wrap justify-center gap-3">
+            <button data-scroll="#advisor" class="secondary-button"><i data-lucide="sparkles"></i> Get AI Match</button>
+            <button data-scroll="#calculator" class="ghost-button"><i data-lucide="calculator"></i> Estimate Earnings</button>
+          </div>
+        </div>
+        <div class="reveal mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="metric-card"><span data-counter="160">0</span><p>Career signals</p></div>
+          <div class="metric-card"><span data-counter="54">0</span><p>Roadmap checkpoints</p></div>
+          <div class="metric-card"><span data-counter="2026">0</span><p>Future-ready forecast</p></div>
+          <div class="metric-card"><strong>OS</strong><p>Career command center</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="advisor" class="section-shell">
+      <div class="mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+        <div class="section-heading reveal text-left">
+          <span class="eyebrow">AI recommendation system</span>
+          <h2>Find the skill that fits your device, time, and strengths.</h2>
+          <p>Answer four questions and the engine ranks skills with income, demand, AI risk, learning time, and a clear reason for the match.</p>
+        </div>
+        <div class="advisor-panel reveal">
+          <div class="advisor-header">
+            <div><span class="status-pill"><span class="pulse-dot"></span> Advisor online</span><h3>Career Match Engine</h3></div>
+            <i data-lucide="brain-circuit"></i>
+          </div>
+          <form id="advisorForm" class="advisor-form">
+            <fieldset><legend>Creative or Technical?</legend><div class="segmented"><label><input type="radio" name="style" value="creative" checked />Creative</label><label><input type="radio" name="style" value="technical" />Technical</label></div></fieldset>
+            <fieldset><legend>Mobile or PC?</legend><div class="segmented"><label><input type="radio" name="device" value="mobile" checked />Mobile</label><label><input type="radio" name="device" value="pc" />PC</label></div></fieldset>
+            <fieldset><legend>English level</legend><select name="english" class="form-control"><option value="basic">Basic</option><option value="medium">Medium</option><option value="strong">Strong</option></select></fieldset>
+            <fieldset><legend>Daily study time</legend><select name="time" class="form-control"><option value="low">Under 1 hour/day</option><option value="medium">1-3 hours/day</option><option value="high">3+ hours/day</option></select></fieldset>
+            <button class="primary-button w-full" type="submit">Generate Career Match</button>
+          </form>
+          <div id="advisorResult" class="advisor-result"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trending" class="section-shell">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Trending skills dashboard</span>
+          <h2>Live-style demand radar.</h2>
+          <p>Track growth, income, demand, and popularity signals for online careers with rising opportunity.</p>
+        </div>
+        <div id="trendDashboard" class="grid gap-5 md:grid-cols-2 xl:grid-cols-5"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Skill intelligence library</span>
+          <h2>Every career path, mapped from beginner to earning.</h2>
+          <p>Search, filter, save, and open a full professional detail page with risk analysis, tools, resources, roadmaps, and freelance strategy.</p>
+        </div>
+        <div class="reveal mb-8 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div id="filterChips" class="flex flex-wrap gap-3"></div>
+          <div class="relative">
+            <i data-lucide="sliders-horizontal" class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"></i>
+            <select id="sortSelect" class="select-input">
+              <option value="trend">Sort by demand</option>
+              <option value="income">Sort by income</option>
+              <option value="time">Sort by fastest to learn</option>
+              <option value="risk">Sort by lowest AI risk</option>
+              <option value="future">Sort by future safety</option>
+            </select>
+          </div>
+        </div>
+        <div id="popularSlider" class="reveal popular-slider" aria-label="Popular skills slider"></div>
+        <div id="skillGrid" class="mt-9 grid gap-5 md:grid-cols-2 xl:grid-cols-3"></div>
+      </div>
+    </section>
+
+    <section id="compare" class="section-shell">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Skill comparison tool</span>
+          <h2>Compare opportunity before you commit.</h2>
+          <p>Demand level, income potential, difficulty, AI risk, learning time, and future safety in one clean table.</p>
+        </div>
+        <div class="reveal table-wrap">
+          <table class="comparison-table">
+            <thead><tr><th>Skill</th><th>Demand</th><th>Income</th><th>Difficulty</th><th>AI Risk</th><th>Learning Time</th><th>Future Safety</th></tr></thead>
+            <tbody id="comparisonBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculator" class="section-shell">
+      <div class="mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[0.9fr_1.1fr]">
+        <div class="section-heading reveal text-left">
+          <span class="eyebrow">Career calculator</span>
+          <h2>Estimate your path to first online income.</h2>
+          <p>Input your daily study hours, budget, and experience level. Z Guide estimates time to earn, skill path, and learning difficulty.</p>
+        </div>
+        <div class="calculator-panel reveal">
+          <form id="calculatorForm" class="advisor-form">
+            <fieldset><legend>Daily study hours</legend><input id="studyHours" class="range-input" type="range" min="1" max="8" value="2" /><div class="range-readout"><span>1h</span><strong id="studyHoursLabel">2h/day</strong><span>8h</span></div></fieldset>
+            <fieldset><legend>Monthly learning budget</legend><select name="budget" class="form-control"><option value="0">Free only</option><option value="25">$25/month</option><option value="100">$100/month</option><option value="250">$250+/month</option></select></fieldset>
+            <fieldset><legend>Experience level</legend><select name="experience" class="form-control"><option value="beginner">Complete beginner</option><option value="some">Some practice</option><option value="client">Worked with clients before</option></select></fieldset>
+            <button class="primary-button w-full" type="submit">Calculate Career Path</button>
+          </form>
+          <div id="calculatorResult" class="calculator-result"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap-lab" class="section-shell">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Learning roadmap generator</span>
+          <h2>Five phases from zero to freelance-ready.</h2>
+          <p>Select a skill and instantly generate a focused roadmap across basics, projects, portfolio, freelancing, and scaling.</p>
+        </div>
+        <div class="roadmap-lab reveal">
+          <select id="roadmapSelect" class="form-control"></select>
+          <div id="roadmapOutput" class="phase-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="freelance" class="section-shell">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Freelance job guide</span>
+          <h2>Know where to find clients and how to price your first offer.</h2>
+          <p>Platform strategy, first-client scripts, portfolio examples, and realistic pricing logic are built into every skill page.</p>
+        </div>
+        <div id="freelanceCards" class="grid gap-5 md:grid-cols-2 xl:grid-cols-4"></div>
+      </div>
+    </section>
+
+    <section id="safety" class="section-shell">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Scam awareness</span>
+          <h2>Earn online without falling for traps.</h2>
+          <p>Z Guide flags common scams beginners face when learning online skills and freelancing.</p>
+        </div>
+        <div class="scam-grid reveal">
+          <article><i data-lucide="badge-alert"></i><h3>Fake courses</h3><p>Avoid courses promising guaranteed income with no portfolio, practice, or client acquisition system.</p></article>
+          <article><i data-lucide="chart-no-axes-combined"></i><h3>Fake income claims</h3><p>Ignore screenshots without context. Real growth includes skill depth, proof, positioning, and consistent outreach.</p></article>
+          <article><i data-lucide="shield-x"></i><h3>Scam clients</h3><p>Use milestones, deposits, written scope, and platform protection before sending final files.</p></article>
+          <article><i data-lucide="network"></i><h3>Pyramid schemes</h3><p>Do not pay to recruit people. Choose skills that create real business value and transferable proof.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="dashboard" class="section-shell">
+      <div class="mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[1.05fr_0.95fr]">
+        <div class="dashboard-panel reveal">
+          <div class="panel-top"><div><span class="eyebrow">Gamified OS dashboard</span><h2>Your career cockpit.</h2></div><button data-open-auth class="icon-button"><i data-lucide="user-plus"></i></button></div>
+          <div class="dashboard-grid">
+            <div><span id="savedCount">0</span><p>Saved skills</p></div>
+            <div><span id="xpCount">420</span><p>XP earned</p></div>
+            <div><span>34%</span><p>Roadmap progress</p></div>
+          </div>
+          <div class="badge-row">
+            <span>Beginner</span><span>Portfolio Builder</span><span>Client Hunter</span><span>Future-Proof</span>
+          </div>
+          <div id="savedSkills" class="saved-list"></div>
+        </div>
+        <div class="growth-panel reveal">
+          <h3>Career OS loop</h3>
+          <div class="timeline">
+            <div><span>01</span><p>Discover the right skill with AI matching.</p></div>
+            <div><span>02</span><p>Learn through a five-phase roadmap.</p></div>
+            <div><span>03</span><p>Build proof and publish portfolio assets.</p></div>
+            <div><span>04</span><p>Find clients, price offers, and deliver results.</p></div>
+            <div><span>05</span><p>Scale into retainers, premium services, or an agency.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chat" class="section-shell">
+      <div class="mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[0.9fr_1.1fr]">
+        <div class="section-heading reveal text-left">
+          <span class="eyebrow">Static AI chat assistant</span>
+          <h2>Ask the questions every beginner has.</h2>
+          <p>Try preset prompts and get smart guidance for choosing skills, earning online, and starting freelancing.</p>
+        </div>
+        <div class="chat-panel reveal">
+          <div id="chatMessages" class="chat-messages"></div>
+          <div class="chat-prompts">
+            <button data-chat="Which skill should I learn?">Which skill should I learn?</button>
+            <button data-chat="How to earn online?">How to earn online?</button>
+            <button data-chat="Best freelancing skill?">Best freelancing skill?</button>
+          </div>
+          <form id="chatForm" class="chat-form">
+            <input class="form-control" name="message" placeholder="Ask Z Guide AI..." />
+            <button class="primary-button" type="submit"><i data-lucide="send"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section-shell">
+      <div class="mx-auto max-w-4xl px-5">
+        <div class="section-heading reveal"><span class="eyebrow">FAQ</span><h2>Questions smart beginners ask.</h2></div>
+        <div id="faqList" class="space-y-4"></div>
+      </div>
+    </section>
+  </main>
+
+ <footer class="site-footer">
+  <div class="mx-auto grid max-w-7xl gap-10 px-5 py-12 md:grid-cols-[1.3fr_0.7fr_0.7fr_0.7fr]">
+
+    <!-- Brand -->
+    <div>
+      <a href="#home" class="brand-mark">
+        <span class="brand-orb">Z</span>
+        <span>Z Guide</span>
+      </a>
+
+      <p class="mt-4 max-w-md text-sm leading-7 text-slate-400">
+        AI-powered Career OS for learners who want to choose, learn,
+        and earn from high-demand online skills without confusion or hype.
+      </p>
+    </div>
+
+    <!-- Features -->
+    <div>
+      <h4>Platform</h4>
+
+      <a href="#advisor">AI Advisor</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#chat">AI Chat</a>
+      <a href="#dashboard">Dashboard</a>
+    </div>
+
+    <!-- Skills -->
+    <div>
+      <h4>Skills</h4>
+
+      <a href="#trending">Trends</a>
+      <a href="#skills">Skill Library</a>
+      <a href="#compare">Comparison</a>
+      <a href="#future">Future Careers</a>
+    </div>
+
+    <!-- Company -->
+    <div>
+      <h4>Company</h4>
+
+      <a href="about.html">About Us</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="contact.html">Contact</a>
+      <a href="terms.html">Terms & Conditions</a>
+
+      <!-- Social -->
+      <div class="mt-5 flex gap-3">
+
+        <a class="icon-button" href="#" aria-label="YouTube">
+          <i data-lucide="youtube"></i>
+        </a>
+
+        <a class="icon-button" href="#" aria-label="Instagram">
+          <i data-lucide="instagram"></i>
+        </a>
+
+        <a class="icon-button" href="#" aria-label="LinkedIn">
+          <i data-lucide="linkedin"></i>
+        </a>
+
+        <a class="icon-button" href="#" aria-label="Facebook">
+          <i data-lucide="facebook"></i>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="border-t border-white/10 py-5 text-center text-sm text-slate-500">
+    © 2026 Z Guide. All rights reserved.
+  </div>
+</footer>
+
+  <div id="skillModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="icon-button modal-close" data-close-modal aria-label="Close details"><i data-lucide="x"></i></button>
+      <div id="skillDetail"></div>
+    </article>
+  </div>
+
+  <div id="authModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-auth></div>
+    <article class="auth-card" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <button class="icon-button modal-close" data-close-auth aria-label="Close login"><i data-lucide="x"></i></button>
+      <div class="text-center"><span class="eyebrow">Member access</span><h2 id="authTitle">Enter your Z Guide cockpit</h2><p>Save skills, track XP, unlock progress badges, and build your first freelance roadmap.</p></div>
+      <form class="mt-7 space-y-4"><input class="form-control" type="email" placeholder="Email address" /><input class="form-control" type="password" placeholder="Password" /><button class="primary-button w-full" type="button">Continue</button></form>
+      <button class="secondary-button mt-4 w-full" type="button">Create free account</button>
+    </article>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
